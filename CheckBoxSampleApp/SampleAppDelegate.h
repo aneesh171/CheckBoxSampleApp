@@ -11,5 +11,7 @@
 @interface SampleAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTableView *tableView;
+@property (nonatomic,strong) NSArray *array;
 
 @end

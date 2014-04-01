@@ -12,7 +12,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.array = @[@{@"name":@"Apple",@"selected":[NSNumber numberWithBool:YES]},@{@"name":@"Banana",@"selected":[NSNumber numberWithBool:YES]},@{@"name":@"Guava",@"selected":[NSNumber numberWithBool:NO]}];
 }
 
 @end
