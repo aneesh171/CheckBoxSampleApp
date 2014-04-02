@@ -14,4 +14,6 @@
 @property (assign) IBOutlet NSTableView *tableView;
 @property (nonatomic,strong) NSArray *array;
 
+- (IBAction)loadTable:(id)sender;
+
 @end

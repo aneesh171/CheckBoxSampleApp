@@ -661,7 +661,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lIa-dF-oVN">
-                        <rect key="frame" x="154" y="28" width="171" height="303"/>
+                        <rect key="frame" x="56" y="28" width="171" height="303"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <clipView key="contentView" ambiguous="YES" misplaced="YES" id="S2S-vm-zvV">
                             <rect key="frame" x="1" y="17" width="169" height="285"/>
@@ -728,11 +728,23 @@
                             <autoresizingMask key="autoresizingMask"/>
                         </tableHeaderView>
                     </scrollView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IgZ-qh-6I1">
+                        <rect key="frame" x="293" y="264" width="104" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="LoadTable" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ptm-me-4pE">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="loadTable:" target="494" id="6bg-ZO-AL1"/>
+                        </connections>
+                    </button>
                 </subviews>
             </view>
         </window>
         <customObject id="494" customClass="SampleAppDelegate">
             <connections>
+                <outlet property="tableView" destination="z7q-lw-V9D" id="tlj-ij-QUb"/>
                 <outlet property="window" destination="371" id="532"/>
             </connections>
         </customObject>
