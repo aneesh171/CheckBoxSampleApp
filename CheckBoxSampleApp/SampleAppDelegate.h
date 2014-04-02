@@ -12,6 +12,8 @@
 
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTableView *tableView;
+@property (assign) IBOutlet NSDrawer *drawer;
+
 @property (nonatomic,strong) NSArray *array;
 
 - (IBAction)loadTable:(id)sender;
