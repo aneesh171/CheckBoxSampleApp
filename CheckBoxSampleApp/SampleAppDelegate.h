@@ -16,6 +16,7 @@
 
 @property (nonatomic,strong) NSArray *array;
 
+- (IBAction)loadDrawer:(id)sender;
 - (IBAction)loadTable:(id)sender;
 
 @end
