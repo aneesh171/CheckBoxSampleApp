@@ -687,6 +687,7 @@
         </window>
         <customObject id="494" customClass="SampleAppDelegate">
             <connections>
+                <outlet property="arrayController" destination="i3N-ye-XXI" id="9lQ-3k-NLx"/>
                 <outlet property="drawer" destination="6Rp-Ca-9ct" id="JyX-u0-ZHa"/>
                 <outlet property="tableView" destination="z7q-lw-V9D" id="tlj-ij-QUb"/>
                 <outlet property="window" destination="371" id="532"/>
@@ -737,6 +738,7 @@
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
                                                         <connections>
+                                                            <action selector="somethingSelected:" target="494" id="Kq8-3o-S6O"/>
                                                             <binding destination="u8r-Tq-861" name="title" keyPath="objectValue.name" id="u3W-rM-gd8"/>
                                                             <binding destination="u8r-Tq-861" name="value" keyPath="objectValue.selected" id="fYX-ek-Tv2"/>
                                                         </connections>
@@ -745,10 +747,13 @@
                                             </tableCellView>
                                         </prototypeCellViews>
                                         <connections>
-                                            <binding destination="i3N-ye-XXI" name="value" keyPath="arrangedObjects" id="xPe-Nx-5qk"/>
+                                            <binding destination="i3N-ye-XXI" name="value" keyPath="arrangedObjects" id="a6O-fs-J0i"/>
                                         </connections>
                                     </tableColumn>
                                 </tableColumns>
+                                <connections>
+                                    <outlet property="delegate" destination="494" id="Zgf-Ax-bbM"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>

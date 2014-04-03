@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A470D8B18ECF28A0071975B /* FruitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A470D8A18ECF28A0071975B /* FruitModel.m */; };
 		5AA2C95618EB6B5D007B59C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA2C95518EB6B5D007B59C7 /* Cocoa.framework */; };
 		5AA2C96018EB6B5D007B59C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AA2C95E18EB6B5D007B59C7 /* InfoPlist.strings */; };
 		5AA2C96218EB6B5D007B59C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA2C96118EB6B5D007B59C7 /* main.m */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A470D8918ECF28A0071975B /* FruitModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FruitModel.h; sourceTree = "<group>"; };
+		5A470D8A18ECF28A0071975B /* FruitModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FruitModel.m; sourceTree = "<group>"; };
 		5AA2C95218EB6B5D007B59C7 /* CheckBoxSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA2C95518EB6B5D007B59C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		5AA2C95818EB6B5D007B59C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 			children = (
 				5AA2C96718EB6B5D007B59C7 /* SampleAppDelegate.h */,
 				5AA2C96818EB6B5D007B59C7 /* SampleAppDelegate.m */,
+				5A470D8918ECF28A0071975B /* FruitModel.h */,
+				5A470D8A18ECF28A0071975B /* FruitModel.m */,
 				5AA2C96A18EB6B5D007B59C7 /* MainMenu.xib */,
 				5AA2C96D18EB6B5D007B59C7 /* Images.xcassets */,
 				5AA2C95C18EB6B5D007B59C7 /* Supporting Files */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AA2C96918EB6B5D007B59C7 /* SampleAppDelegate.m in Sources */,
+				5A470D8B18ECF28A0071975B /* FruitModel.m in Sources */,
 				5AA2C96218EB6B5D007B59C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,6 +471,7 @@
 				5AA2C98518EB6B5D007B59C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AA2C98618EB6B5D007B59C7 /* Build configuration list for PBXNativeTarget "CheckBoxSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				5AA2C98818EB6B5D007B59C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

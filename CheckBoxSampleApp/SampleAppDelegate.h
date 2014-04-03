@@ -13,10 +13,12 @@
 @property (assign) IBOutlet NSWindow *window;
 @property (assign) IBOutlet NSTableView *tableView;
 @property (assign) IBOutlet NSDrawer *drawer;
+@property (assign) IBOutlet NSArrayController *arrayController;
 
-@property (nonatomic,strong) NSArray *array;
+@property (nonatomic,strong) NSMutableArray *array;
 
 - (IBAction)loadDrawer:(id)sender;
 - (IBAction)loadTable:(id)sender;
+- (IBAction)somethingSelected:(id)sender;
 
 @end
